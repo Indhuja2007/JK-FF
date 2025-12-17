@@ -23,8 +23,8 @@ By using three variable K-Map, we can get the simplified expression for next sta
 4
 The maximum possible groupings of adjacent ones are already shown in the figure. Therefore, the simplified expression for next state Qt+1t+1 is Q(t+1)=JQ(t)′+K′Q(t)Q(t+1)=JQ(t)′+K′Q(t)
 
-PROGRAM:
-
+## PROGRAM:
+```
 module jk_flip_flop (
     input  wire clk, rst, J, K,
     output reg  Q
@@ -42,6 +42,7 @@ module jk_flip_flop (
         end
     end
 endmodule
+```
 IMAGE: 
 <img width="1920" height="1080" alt="Screenshot (73)" src="https://github.com/user-attachments/assets/4f27fff7-06df-4ca6-9a94-7a68e874db71" />
 
